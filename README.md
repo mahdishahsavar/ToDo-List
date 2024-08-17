@@ -16,7 +16,7 @@ For development environments, especially in production settings, it is advisable
 1. **Parser Options**:
    Enhance your ESLint parser options to fully leverage TypeScript's capabilities by adding the following settings:
 
-   ```javascript
+  ```javascript
    export default {
      parserOptions: {
        ecmaVersion: 'latest',
@@ -26,14 +26,15 @@ For development environments, especially in production settings, it is advisable
      },
    }
 
-```
-Type-Aware Linting:
+  ```
+2. **Type-Aware Linting**:
 
 Upgrade from the basic TypeScript ESLint recommendations to more comprehensive configurations:
 Replace plugin:@typescript-eslint/recommended with plugin:@typescript-eslint/recommended-type-checked for type-checked rules.
 For even stricter rules, use plugin:@typescript-eslint/strict-type-checked.
-Consider adding plugin:@typescript-eslint/stylistic-type-checked for style-focused linting.
-React Specific Linting:
+Consider adding plugin:@typescript-eslint/stylistic-type-checked for style-focused lining.
+
+3. **React Specific Linting**:
 
 To ensure adherence to best practices in React development, install the eslint-plugin-react:
 Add plugin:react/recommended for recommended React linting rules.
