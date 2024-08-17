@@ -37,8 +37,8 @@ For development environments, especially in production settings, it is advisable
 3. **React Specific Linting**:
 
   - To ensure adherence to best practices in React development, install the eslint-plugin-react:
-    - - Add plugin:react/recommended for recommended React linting rules.
-    - - Incorporate plugin:react/jsx-runtime for linting of JSX elements with the React 17 JSX transform.
+    - Add plugin:react/recommended for recommended React linting rules.
+    - Incorporate plugin:react/jsx-runtime for linting of JSX elements with the React 17 JSX transform.
     
 4. **Contributing:**
 
